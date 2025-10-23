@@ -1,0 +1,70 @@
+.background-image {
+    -fx-background-image: url('img/tl.png');
+    -fx-background-size: cover; /* Ajusta el tamaño de la imagen al contenedor */
+    -fx-background-position: top; /* Mantiene la imagen en la parte superior del contenedor */
+    -fx-background-repeat: repeat-x; /* Repite la imagen horizontalmente */
+}
+
+.textoNegrita {
+    -fx-font-weight: bold;
+    -fx-font-family: "Open Sans", sans-serif;
+    -fx-font-size: 48px;
+}
+
+.textoNegritaTiempo {
+    -fx-font-weight: bold;
+    -fx-font-family: "Open Sans", sans-serif;
+    -fx-font-size: 16px;
+    -fx-text-fill: #D5D5D5;
+}
+
+.textoDescripcion {
+    -fx-font-family: "Open Sans", sans-serif;
+    -fx-font-size: 20px;
+    -fx-text-fill: #E8E8E8;
+}
+.textoPrecio {
+    -fx-font-family: "Open Sans", sans-serif;
+    -fx-font-size: 30px;
+    -fx-text-fill: #E1FF43;
+}
+
+.textoDatosPelicula {
+    -fx-font-family: "Open Sans", sans-serif;
+    -fx-font-size: 28px;
+    -fx-text-fill: #FFFFFF;
+}
+
+.textoNegrita2 {
+    -fx-font-weight: bold;
+    -fx-font-family: "Open Sans", sans-serif;
+    -fx-font-size: 26px;
+}
+
+.Cartelera {
+    -fx-pref-width: 324;
+    -fx-pref-height: 407;
+}
+
+.piePagina {
+    -fx-background-image: url('img/piePagina.png');
+    -fx-background-size: cover; /* Ajusta el tamaño de la imagen al contenedor */
+    -fx-background-position: top; /* Mantiene la imagen en la parte superior del contenedor */
+    -fx-background-repeat: repeat-x; /* Repite la imagen horizontalmente */
+}
+
+.textoPiePagina {
+    -fx-font-family: 'Open Sans';
+    -fx-font-size: 32;
+    -fx-text-fill: black;
+}
+
+.textoBuscador {
+    -fx-font-family: 'Open Sans';
+    -fx-font-size: 14;
+    -fx-text-fill: black;
+}
+
+.fondoTransparente{
+    -fx-background-color: rgb(0,0,0,0);
+}

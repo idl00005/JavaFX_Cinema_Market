@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.media.MediaView?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1535.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cinemamarket.VistaPelicula">
+   <center>
+      <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" BorderPane.alignment="CENTER">
+         <children>
+            <ScrollPane fx:id="scrollPane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <content>
+                  <StackPane>
+                     <children>
+                        <BorderPane style="-fx-background-color: #5D5CA5;" styleClass="background-image" stylesheets="@../../../style.css">
+                           <bottom>
+                              <VBox alignment="BOTTOM_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="312.0" prefWidth="1550.0" styleClass="fondoTransparente" stylesheets="@../../../style.css" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <BorderPane prefWidth="1550.0" style="-fx-background-color: #FFFFFF;" styleClass="piePagina">
+                                       <right>
+                                          <HBox alignment="CENTER_RIGHT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="318.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+                                             <children>
+                                                <ImageView fitHeight="317.0" fitWidth="420.0" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@../../../img/CINEMA__1_-removebg-preview.png" />
+                                                   </image>
+                                                </ImageView>
+                                             </children>
+                                          </HBox>
+                                       </right>
+                                       <center>
+                                          <HBox prefHeight="318.0" prefWidth="821.0" styleClass="fondoTransparente" stylesheets="@../../../style.css" BorderPane.alignment="CENTER">
+                                             <children>
+                                                <VBox alignment="BOTTOM_CENTER" prefHeight="318.0" prefWidth="258.0" styleClass="fondoTransparente">
+                                                   <children>
+                                                      <HBox alignment="TOP_RIGHT" prefHeight="136.0" prefWidth="524.0" styleClass="fondoTransparente">
+                                                         <children>
+                                                            <ImageView fx:id="icInstagram" fitHeight="51.0" fitWidth="88.0" pickOnBounds="true" preserveRatio="true">
+                                                               <image>
+                                                                  <Image url="@../../../img/instagram.png" />
+                                                               </image>
+                                                               <HBox.margin>
+                                                                  <Insets left="20.0" right="30.0" />
+                                                               </HBox.margin>
+                                                            </ImageView>
+                                                            <ImageView fx:id="icFacebook" fitHeight="51.0" fitWidth="88.0" layoutX="501.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                                                               <image>
+                                                                  <Image url="@../../../img/facebook.png" />
+                                                               </image>
+                                                               <HBox.margin>
+                                                                  <Insets left="20.0" right="30.0" />
+                                                               </HBox.margin>
+                                                            </ImageView>
+                                                            <ImageView fx:id="icX" fitHeight="51.0" fitWidth="88.0" layoutX="501.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                                                               <image>
+                                                                  <Image url="@../../../img/twitter-x-logo-0339F999CF-seeklogo.com.png" />
+                                                               </image>
+                                                               <HBox.margin>
+                                                                  <Insets left="20.0" right="30.0" />
+                                                               </HBox.margin>
+                                                            </ImageView>
+                                                         </children>
+                                                      </HBox>
+                                                   </children>
+                                                </VBox>
+                                             </children>
+                                          </HBox>
+                                       </center>
+                                       <left>
+                                          <VBox alignment="BOTTOM_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="318.0" prefWidth="285.0" styleClass="fondoTransparente" stylesheets="@../../../style.css" BorderPane.alignment="CENTER">
+                                             <children>
+                                                <HBox prefHeight="317.0" prefWidth="1530.0" styleClass="fondoTransparente" stylesheets="@../../../style.css">
+                                                   <children>
+                                                      <VBox alignment="CENTER_RIGHT" prefHeight="317.0" prefWidth="290.0" styleClass="fondoTransparente">
+                                                         <children>
+                                                            <Label fx:id="contacto" prefHeight="47.0" prefWidth="155.0" styleClass="textoPiePagina" text="Contacto">
+                                                               <font>
+                                                                  <Font size="36.0" />
+                                                               </font>
+                                                               <VBox.margin>
+                                                                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                                                               </VBox.margin>
+                                                            </Label>
+                                                            <Label fx:id="siguenos" layoutX="10.0" layoutY="28.0" prefHeight="47.0" prefWidth="155.0" styleClass="textoPiePagina" text="Siguenos:">
+                                                               <font>
+                                                                  <Font size="36.0" />
+                                                               </font>
+                                                               <VBox.margin>
+                                                                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                                                               </VBox.margin>
+                                                            </Label>
+                                                         </children>
+                                                      </VBox>
+                                                   </children>
+                                                </HBox>
+                                             </children>
+                                          </VBox>
+                                       </left>
+                                    </BorderPane>
+                                 </children>
+                              </VBox>
+                           </bottom>
+                           <center>
+                              <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="1919.0" prefWidth="1550.0" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <BorderPane>
+                                       <left>
+                                          <ImageView fx:id="imagenSeleccionada" fitHeight="273.0" fitWidth="283.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+                                             <image>
+                                                <Image url="@../../../img/CINEMA__3_-removebg-preview.png" />
+                                             </image>
+                                          </ImageView>
+                                       </left>
+                                       <right>
+                                          <ChoiceBox fx:id="idiomasSelector" prefWidth="150.0" BorderPane.alignment="TOP_CENTER">
+                                             <BorderPane.margin>
+                                                <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+                                             </BorderPane.margin>
+                                          </ChoiceBox>
+                                       </right>
+                                    </BorderPane>
+                                    <Separator prefWidth="200.0" />
+                                    <HBox alignment="CENTER_LEFT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="157.0" prefWidth="1550.0">
+                                       <children>
+                                          <Button mnemonicParsing="false" onAction="#volverPrincipal" prefHeight="50.0" prefWidth="52.0">
+                                             <HBox.margin>
+                                                <Insets left="50.0" />
+                                             </HBox.margin>
+                                             <graphic>
+                                                <ImageView fx:id="home" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" />
+                                             </graphic>
+                                          </Button>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER" prefHeight="574.0" prefWidth="1550.0">
+                                       <children>
+                                          <ImageView fx:id="cartel" fitHeight="564.0" fitWidth="374.0" pickOnBounds="true">
+                                             <image>
+                                                <Image url="@../../../img/Napoleón.jpg" />
+                                             </image>
+                                             <HBox.margin>
+                                                <Insets right="60.0" />
+                                             </HBox.margin>
+                                          </ImageView>
+                                          <VBox prefHeight="564.0" prefWidth="658.0">
+                                             <children>
+                                                <Label fx:id="titulo" prefHeight="70.0" prefWidth="670.0" styleClass="textoNegrita" text="Napoleón" textFill="WHITE">
+                                                   <font>
+                                                      <Font name="System Bold" size="48.0" />
+                                                   </font>
+                                                </Label>
+                                                <Label fx:id="LBduracion" prefHeight="26.0" prefWidth="67.0" styleClass="textoNegritaTiempo" text="160 min" />
+                                                <Label fx:id="genero" prefHeight="40.0" prefWidth="674.0" styleClass="textoDatosPelicula" text="Genero: Acción, Biopic" />
+                                                <Label fx:id="actores" alignment="TOP_LEFT" layoutX="10.0" layoutY="106.0" prefHeight="92.0" prefWidth="672.0" styleClass="textoDatosPelicula" text="Actores: Joaquin Phoenix, Vanessa Kirby, Ben Miles" wrapText="true" />
+                                                <Label fx:id="director" alignment="TOP_LEFT" layoutX="10.0" layoutY="162.0" prefHeight="40.0" prefWidth="674.0" styleClass="textoDatosPelicula" text="Director: Ridley Scott" wrapText="true" />
+                                                <HBox alignment="CENTER_LEFT" prefHeight="56.0" prefWidth="608.0">
+                                                   <children>
+                                                      <Label fx:id="precio" prefHeight="45.0" prefWidth="166.0" styleClass="textoPrecio" text="Precio: 10€" />
+                                                      <Button mnemonicParsing="false" prefHeight="33.0" prefWidth="61.0">
+                                                         <HBox.margin>
+                                                            <Insets left="20.0" />
+                                                         </HBox.margin>
+                                                         <graphic>
+                                                            <ImageView fx:id="comprar" fitHeight="38.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" />
+                                                         </graphic>
+                                                      </Button>
+                                                   </children>
+                                                </HBox>
+                                                <Label fx:id="descripcion" alignment="TOP_LEFT" contentDisplay="TEXT_ONLY" prefHeight="263.0" prefWidth="678.0" styleClass="textoDescripcion" text="'Napoleón' es un espectáculo lleno de épica y acción que detalla el enrevesado ascenso y caída del icónico Emperador francés Napoleón Bonaparte. La película muestra la incesante carrera de Bonaparte hasta el poder, a través del prisma de la adictiva y volátil relación con Josefina, la que fue su único amor verdadero, presentando sus visionarias tácticas políticas y militares a través de algunas de las secuencias prácticas de batallas más dinámicas jamás filmadas." textFill="WHITE" wrapText="true" />
+                                             </children>
+                                          </VBox>
+                                       </children>
+                                    </HBox>
+                                    <HBox prefHeight="93.0" prefWidth="1550.0" />
+                                    <Separator prefWidth="200.0" />
+                                    <HBox alignment="BOTTOM_LEFT" layoutX="10.0" layoutY="304.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="117.0" prefWidth="1530.0">
+                                       <children>
+                                          <Label fx:id="verTrailer" alignment="CENTER_RIGHT" prefHeight="66.0" prefWidth="418.0" styleClass="textoNegrita" text="Ver Trailer" textFill="WHITE">
+                                             <font>
+                                                <Font size="48.0" />
+                                             </font>
+                                             <opaqueInsets>
+                                                <Insets />
+                                             </opaqueInsets>
+                                             <HBox.margin>
+                                                <Insets left="60.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                    <VBox alignment="BOTTOM_CENTER" prefHeight="523.0" prefWidth="1550.0">
+                                       <children>
+                                          <MediaView fx:id="mediaView" fitHeight="562.0" fitWidth="1000.0" />
+                                          <HBox alignment="CENTER" prefHeight="48.0" prefWidth="1550.0">
+                                             <children>
+                                                <Slider fx:id="slider" onMousePressed="#sliderPressed" prefWidth="1000.0">
+                                                   <HBox.margin>
+                                                      <Insets left="20.0" right="20.0" />
+                                                   </HBox.margin>
+                                                </Slider>
+                                             </children>
+                                          </HBox>
+                                          <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0">
+                                             <children>
+                                                <Button fx:id="butPlay" mnemonicParsing="false" onMouseClicked="#pulsarPlay" prefHeight="35.0" prefWidth="45.0" style="-fx-background-radius: 0;">
+                                                   <HBox.margin>
+                                                      <Insets left="15.0" />
+                                                   </HBox.margin>
+                                                   <graphic>
+                                                      <ImageView fx:id="playImage" fitHeight="27.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true" />
+                                                   </graphic>
+                                                </Button>
+                                                <Button alignment="CENTER" mnemonicParsing="false" onMouseClicked="#pulsarStop" prefHeight="43.0" prefWidth="40.0" style="-fx-background-radius: 0;">
+                                                   <HBox.margin>
+                                                      <Insets left="15.0" right="15.0" />
+                                                   </HBox.margin>
+                                                   <graphic>
+                                                      <ImageView fx:id="stopImage" fitHeight="17.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true" />
+                                                   </graphic>
+                                                </Button>
+                                                <Label fx:id="lbdDuration" styleClass="textoDescripcion" text="Duracion: 00/00" />
+                                             </children>
+                                          </HBox>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </VBox>
+                           </center>
+                        </BorderPane>
+                     </children>
+                  </StackPane>
+               </content>
+            </ScrollPane>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
