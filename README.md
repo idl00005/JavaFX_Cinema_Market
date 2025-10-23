@@ -29,7 +29,7 @@ Al seleccionar una película, el usuario puede:
 
 ---
 
-### 🌐 Internacionalización (i18n)
+### 🌐 Internacionalización
 Cinema Market soporta múltiples idiomas.  
 Desde el **selector de idioma** en la esquina superior derecha, el usuario puede cambiar el idioma de toda la interfaz al instante.  
 Es posible añadir nuevos idiomas o modificar los actuales fácilmente. Tan solo es necesario modificar el archivo datos.xlsx.
