@@ -17,6 +17,7 @@ La aplicación incluye un **carrusel de películas**, un **buscador avanzado**, 
   - 📝 **Título**
 
 <img width="1890" height="1001" alt="image" src="https://github.com/user-attachments/assets/acf49d42-f390-421f-aa50-26db2e76634f" />
+
 ---
 
 ### 🎥 Detalle de película
